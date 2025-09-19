@@ -6,8 +6,8 @@ import nltk
 nltk.download("stopwords")
 from nltk.corpus import stopwords
 
-model = pickle.load(open("model.pkl", "rb"))
-vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
+model = pickle.load(open("app/model.pkl", "rb"))
+vectorizer = pickle.load(open("app/vectorizer.pkl", "rb"))
 
 def clean_text(text):
     text = re.sub(r'[^a-zA-Z\s]', '', text) # remove punctuation/numbers
