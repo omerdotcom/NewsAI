@@ -10,10 +10,10 @@
 Fake news spreads fast on social media like a fire, influencing millions of people.  
 This project builds a Machine Learning classifier that detects whether a given news article is **REAL** or **FAKE**.
 
-## 📊 Dataset
+## Dataset
 - Source: [Kaggle – Fake and Real News Dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)  
 
-## 📈 Results
+## Results
 - Accuracy: **98.9%**  
 - Confusion Matrix:  
 
